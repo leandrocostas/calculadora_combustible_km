@@ -1,0 +1,26 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(images/fondo-ruta.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+}
+
+input{
+    width: 180px;
+    height: 30px;
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    background-color:rgb(228, 162, 63);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}

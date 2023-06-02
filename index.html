@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Combustible / Kilometros</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>⛽ Calcular Combustible / Kilometros 🚗</h1>
+    
+    <h3>Calcular Combustible según Kilometros</h3>
+
+    <p>Calcula cuantos litros voy a necesitar</p>
+
+    <label for="">Kilometros: </label> <input id="kilometros-input" type="number">
+
+    <br><br>
+
+    <button onclick="calcularCombustible()">Calcular Combustible</button>
+
+    <br>
+
+    <p id="respuesta-combustible"></p>
+
+    <br>
+
+    
+    <h3>Calcular Kilometros segun combustible</h3>
+
+    <p>Calcula cuantos kilometros podré realizar</p>
+
+    <label for="">Litros: </label> <input id="litros-input" type="number">
+
+    <br><br>
+
+    <button onclick="calcularKilometros()">Calcular Kilometros</button>
+
+    <br>
+
+    <p id="respuesta-kilometros"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
